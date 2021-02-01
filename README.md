@@ -20,8 +20,7 @@ environment variable.
 Inspiration
 -----------
 
-[z][] was a big inspiration for this tool but it didn't work great on
-the machines I used, so I wrote `j`.
+Use [z][] if it works correctly on your machine.
 
 [z]: https://github.com/rupa/z
 
