@@ -7,7 +7,7 @@ use strict;
 use warnings;
 
 my $short_usage = "Usage: j REGEX ...\n";
-my $help = <<'EOF';
+my $help = <<'EOS';
 Jump around.
 
     -m, --memorise          memorise the current directory.
@@ -15,7 +15,7 @@ Jump around.
     --help                  display this help and exit.
 
 See man page for more information.
-EOF
+EOS
 
 my $regex = "";
 # environment variables
