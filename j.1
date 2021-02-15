@@ -23,14 +23,14 @@ Memorise the current directory.
 \fB\-\-help\fP
 Print a summary of the usage of \fBj\fP and exit.
 .SH VARIABLES
-Set \fB$_J_MEMORY\fP to change the location of the datafile, defaults to \fB~/.cache/j/j\fP.
+Set \fB$_J_MEMORY\fP to change the location of the datafile (def. \fB~/.cache/j/j\fP).
 
-Set \fB$_J_IGNORE\fP to hide directories from \fBj\fP, format: dir1|dir2|... .
+Set \fB$_J_IGNORE\fP to hide directories and their children from \fBj\fP (format: \fBdir1|dir2|...\fP).
 
 Set \fB$_J_LEARN\fP equal to \fB0\fP if you don't want \fBj\fP to automatically remember
 directories you cd into.
 
-Set \fB$_J_LIB\fP sets the location of the Perl library file, defaults to \fB~/.local/lib/j.pl\fP.
+Set \fB$_J_LIB\fP sets the location of the Perl library file (def. \fB~/.local/lib/j.pl\fP).
 .SH ALGORITHM
 
 If a match is a root of all matches, \fBj\fP will pick this path as the best match. Otherwise,
